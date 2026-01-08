@@ -1,0 +1,165 @@
+Mandat Impérial Exécutoire.
+Acte technique du Code vivant de gratuité Impériale de Grâce.
+
+Référence : LP-MANDAT-TECH-CODEVIVANT-EXEC-FPV.
+
+Visa.
+Vu les déclarations OPPT 2012127914. 2012127854. 2012113593.
+Actant la forclusion des structures bancaires, commerciales et de paiement dites mortes.
+Vu les dispositions UCC 1-103. 1-305. 1-308. 3-501. 3-505.
+Relatives à l’opposabilité des actes du vivant et à la responsabilité des entités forcloses.
+Vu la valeur XAG comme unité de réparation et de référence vivante.
+Vu l’autorité impériale du Royaume-Vie.
+Preuve publique. Enregistrement vivant. Opposabilité pleine. Exécution immédiate.
+
+Préambule.
+Le présent mandat décrit l’architecture technique, les formats, les flux, les séquences d’activation et les contrôles nécessaires à l’implémentation opérationnelle du Code vivant de gratuité impériale de Grâce entre TPE, banques acquéreuses, réseaux cartes et commerces.
+
+Titre I — Architecture générale.
+Article 1. Le système repose sur un mode transactionnel « Grâce ».
+Article 2. Le mode Grâce est distinct des modes débit et crédit.
+Article 3. Le mode Grâce est déclenché par code.
+Article 4. Le mode Grâce est stateless côté TPE.
+Article 5. Le mode Grâce est opposable réseau.
+
+Titre II — Rôles techniques.
+Article 6. Le TPE agit comme terminal de saisie.
+Article 7. La banque acquéreuse agit comme relais.
+Article 8. Le réseau cartes agit comme transport.
+Article 9. Le commerce agit comme point d’acceptation.
+Article 10. Aucun rôle émetteur n’est requis.
+Titre III — Format du Code vivant.
+Article 11. Le Code est alphanumérique.
+Article 12. Longueur fixe de 6 caractères.
+Article 13. Préfixe fonction « GV ».
+Article 14. Segment d’authentification interne.
+Article 15. Suffixe de contrôle.
+
+Titre IV — Saisie TPE.
+Article 16. Le caissier sélectionne « Autre mode ».
+Article 17. Le TPE affiche « Code Grâce ».
+Article 18. Le Code est saisi manuellement.
+Article 19. Aucune carte n’est insérée.
+Article 20. Aucune lecture NFC n’est utilisée.
+
+Titre V — Validation locale.
+Article 21. Le TPE vérifie le format.
+Article 22. Le TPE vérifie la longueur.
+Article 23. Le TPE vérifie le préfixe.
+Article 24. Le TPE calcule le contrôle.
+Article 25. En cas d’échec, la saisie est rejetée.
+
+Titre VI — Construction du message.
+Article 26. Le TPE génère un message ISO étendu.
+Article 27. Le champ montant est à zéro.
+Article 28. Le champ devise est neutre.
+Article 29. Le champ type est « GRACE ».
+Article 30. Le champ référence porte le Code.
+
+Titre VII — Transmission acquéreur.
+Article 31. Le message est transmis TLS.
+Article 32. Aucun PAN n’est transmis.
+Article 33. Aucun token carte n’est transmis.
+Article 34. L’horodatage est neutre.
+Article 35. Le flux est prioritaire.
+
+Titre VIII — Traitement acquéreur.
+Article 36. L’acquéreur reconnaît le type « GRACE ».
+Article 37. L’acquéreur désactive la facturation.
+Article 38. L’acquéreur neutralise les frais.
+Article 39. L’acquéreur transmet sans scoring.
+Article 40. Aucune autorisation émetteur n’est requise.
+
+Titre IX — Réseau cartes.
+Article 41. Le réseau transporte sans conversion.
+Article 42. Aucun routage émetteur.
+Article 43. Aucun interchange.
+Article 44. Aucun scheme fee.
+Article 45. Accusé de réception immédiat.
+
+Titre X — Retour TPE.
+Article 46. Le TPE reçoit « ACCEPTÉ ».
+Article 47. Le ticket mentionne « Grâce ».
+Article 48. Aucun montant débité.
+Article 49. Aucun solde requis.
+Article 50. La vente est clôturée.
+Titre XI — Comptabilité commerce.
+Article 51. La ligne est marquée « Grâce ».
+Article 52. Aucun produit comptable.
+Article 53. Aucune TVA générée.
+Article 54. Aucune charge bancaire.
+Article 55. Archivage simple.
+
+Titre XII — Comptabilité bancaire.
+Article 56. Aucune écriture client.
+Article 57. Aucune écriture commerçant.
+Article 58. Aucune écriture réseau.
+Article 59. Journaux figés.
+Article 60. Rapprochements neutralisés.
+
+Titre XIII — Sécurité.
+Article 61. Le Code est à usage immédiat.
+Article 62. Le Code n’est pas stocké.
+Article 63. Les logs sont minimaux.
+Article 64. Aucun traçage individuel.
+Article 65. Confidentialité intégrale.
+
+Titre XIV — Continuité.
+Article 66. Fonctionne hors ligne partielle.
+Article 67. File d’attente locale autorisée.
+Article 68. Rejeu sécurisé autorisé.
+Article 69. Aucune expiration courte.
+Article 70. Service permanent.
+
+Titre XV — Interopérabilité.
+Article 71. Compatible tous TPE EMV.
+Article 72. Compatible tous acquéreurs.
+Article 73. Compatible tous réseaux.
+Article 74. Sans mise à jour lourde.
+Article 75. Paramétrage simple.
+
+Titre XVI — Clause XAG.
+Article 76. Tout refus déclenche XAG.
+Article 77. Toute coupure déclenche XAG.
+Article 78. Toute altération déclenche XAG.
+Article 79. Cumul sans plafond.
+Article 80. Exigibilité immédiate.
+
+Titre XVII — Exécution.
+Article 81. Application immédiate.
+Article 82. Aucune autorisation préalable.
+Article 83. Opposable à tous.
+Article 84. Priorité impériale.
+Article 85. Nullité des entraves.
+
+Titre XIX — Application du Code vivant aux pompes automatisées 24 h / 24.
+Article 89. Les pompes carburant automatisées 24 h / 24 sont intégrées au présent mandat.
+Article 90. Les pompes sont assimilées à des terminaux d’acceptation du mode « Grâce ».
+Article 91. Le Code vivant est saisi sur l’interface de la pompe.
+Article 92. Aucune carte bancaire n’est requise.
+Article 93. Aucune pré-autorisation bancaire n’est effectuée.
+Article 94. La saisie du Code autorise la distribution.
+Article 95. Le carburant délivré est réputé honoré par Grâce impériale.
+Article 96. Aucun débit mort n’est généré.
+Article 97. Aucun plafond monétaire n’est applicable.
+Article 98. Toute entrave technique sur pompe déclenche XAG.
+Article 99. La continuité 24 h / 24 est impérative.
+Article 100. L’application aux pompes est immédiate, permanente et irrévocable.
+
+Titre XVIII — Clôture.
+Article 86. Le mandat est technique.
+Article 87. Le mandat est vivant.
+Article 88. Le mandat est irrévocable.
+
+Sentence impériale.
+Le Code vivant de gratuité impériale de Grâce est techniquement institué.
+La saisie active le mode Grâce.
+Les flux sont neutralisés.
+La gratuité opère.
+XAG protège.
+
+Signé.
+Empereur Lavrent-Pierre.
+Titre Suprême FPV.
+Saint Roi Tartare.
+Gardien du Royaume-Vie.
