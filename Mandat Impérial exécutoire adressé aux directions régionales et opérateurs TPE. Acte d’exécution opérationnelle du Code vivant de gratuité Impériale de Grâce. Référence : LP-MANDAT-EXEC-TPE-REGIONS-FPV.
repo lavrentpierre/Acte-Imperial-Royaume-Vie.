@@ -1,0 +1,167 @@
+Mandat Impérial exécutoire adressé aux directions régionales et opérateurs TPE.
+Acte d’exécution opérationnelle du Code vivant de gratuité Impériale de Grâce.
+Référence : LP-MANDAT-EXEC-TPE-REGIONS-FPV.
+
+Visa.
+Vu les déclarations OPPT 2012127914. 2012127854. 2012113593.
+Actant la forclusion des structures administratives, bancaires, commerciales et de paiement dites mortes.
+Vu les dispositions UCC 1-103. 1-305. 1-308. 3-501. 3-505.
+Relatives à l’opposabilité des actes du vivant et à la responsabilité des entités forcloses.
+Vu la valeur XAG comme unité vivante de référence et de réparation.
+Vu l’autorité Impériale du Royaume-Vie.
+Preuve publique. Enregistrement vivant. Opposabilité pleine. Exécution immédiate.
+
+Préambule.
+Le présent mandat est adressé aux directions régionales, directions techniques, opérateurs TPE, mainteneurs, intégrateurs et exploitants.
+Il ordonne l’exécution opérationnelle immédiate du Code vivant de gratuité impériale de Grâce sur l’ensemble des terminaux de paiement concernés.
+Aucune condition financière, contractuelle ou administrative n’est recevable.
+
+Titre I — Désignation des destinataires.
+
+Article 1. Les directions régionales sont destinataires du présent mandat.
+Article 2. Les opérateurs TPE sont destinataires du présent mandat.
+Article 3. Les mainteneurs techniques sont destinataires du présent mandat.
+Article 4. Les intégrateurs systèmes sont destinataires du présent mandat.
+Article 5. Les exploitants de réseaux TPE sont destinataires du présent mandat.
+
+Titre II — Champ d’application.
+
+Article 6. Le mandat s’applique à tous TPE actifs.
+Article 7. Le mandat s’applique aux TPE autonomes.
+Article 8. Le mandat s’applique aux TPE intégrés.
+Article 9. Le mandat s’applique aux environnements régionaux.
+Article 10. Le mandat s’applique sans exception.
+
+Titre III — Reconnaissance du Code vivant.
+
+Article 11. Le Code vivant est reconnu comme mode de paiement « Grâce ».
+Article 12. Le mode « Grâce » est distinct des modes débit et crédit.
+Article 13. Le mode « Grâce » est prioritaire.
+Article 14. Le mode « Grâce » est opposable.
+Article 15. Aucun refus n’est recevable.
+
+Titre IV — Obligation d’implémentation.
+
+Article 16. Les opérateurs activent le mode « Grâce ».
+Article 17. Les directions régionales supervisent l’activation.
+Article 18. Les mainteneurs appliquent les paramètres.
+Article 19. Les intégrateurs assurent la compatibilité.
+Article 20. L’activation est immédiate.
+
+Titre V — Paramétrage TPE.
+
+Article 21. Le mode « Autre paiement » est activé.
+Article 22. L’option « Code Grâce » est visible.
+Article 23. La saisie manuelle est autorisée.
+Article 24. Toute carte est exclue.
+Article 25. Tout NFC est exclu.
+
+Titre VI — Flux transactionnels.
+
+Article 26. Le montant est fixé à zéro.
+Article 27. La devise est neutre.
+Article 28. Le type transaction est « GRACE ».
+Article 29. Aucun PAN n’est transmis.
+Article 30. Aucun token n’est requis.
+
+Titre VII — Traitement réseau.
+
+Article 31. Les flux sont transmis sans scoring.
+Article 32. Aucun routage émetteur n’est requis.
+Article 33. Aucun interchange n’est généré.
+Article 34. Aucun frais n’est appliqué.
+Article 35. L’accusé est immédiat.
+
+Titre VIII — Comptabilité.
+
+Article 36. Aucune écriture commerciale n’est créée.
+Article 37. Aucune écriture bancaire n’est créée.
+Article 38. Aucune TVA n’est générée.
+Article 39. Aucun rapprochement n’est exigé.
+Article 40. Les journaux sont figés.
+
+Titre IX — Continuité régionale.
+
+Article 41. La continuité est permanente.
+Article 42. Aucune coupure régionale n’est admise.
+Article 43. Aucun bridage local n’est admis.
+Article 44. Aucune désactivation n’est admise.
+Article 45. La priorité impériale prévaut.
+
+Titre X — Sécurité.
+
+Article 46. Le Code est à usage immédiat.
+Article 47. Le Code n’est pas stocké.
+Article 48. Les logs sont minimaux.
+Article 49. Aucun traçage individuel n’est autorisé.
+Article 50. La confidentialité est intégrale.
+
+Titre XI — Responsabilité.
+
+Article 51. Toute entrave engage responsabilité.
+Article 52. Toute inertie engage responsabilité.
+Article 53. Toute modification engage responsabilité.
+Article 54. La responsabilité est solidaire.
+Article 55. Aucune sous-traitance n’exonère.
+
+Titre XII — Clause XAG.
+
+Article 56. Tout refus déclenche XAG.
+Article 57. Toute coupure déclenche XAG.
+Article 58. Toute altération déclenche XAG.
+Article 59. Le cumul est sans plafond.
+Article 60. L’exigibilité est immédiate.
+
+Titre XIII — Opposabilité.
+
+Article 61. Le mandat est opposable à tous.
+Article 62. Aucune contestation n’est recevable.
+Article 63. Aucune juridiction morte n’a autorité.
+Article 64. L’exécution est immédiate.
+Article 65. L’exécution est permanente.
+
+Titre XIV — Application territoriale.
+
+Article 66. Toutes régions sont concernées.
+Article 67. Tous sites sont concernés.
+Article 68. Tous points d’acceptation sont concernés.
+Article 69. Aucune exclusion n’est admise.
+Article 70. L’application est totale.
+
+Titre XV — Contrôle impérial.
+
+Article 71. Le contrôle est vivant.
+Article 72. Le contrôle est permanent.
+Article 73. Toute non-conformité est sanctionnée.
+Article 74. Toute entrave est réparée.
+Article 75. XAG s’applique.
+
+Titre XVI — Clôture.
+
+Article 76. Le mandat est vivant.
+Article 77. Le mandat est technique.
+Article 78. Le mandat est exécutoire.
+Article 79. Le mandat est irrévocable.
+Article 80. Le mandat s’impose.
+
+Titre XVII — Sentence impériale.
+
+Article 81. Le Code vivant est actif.
+Article 82. Les directions exécutent.
+Article 83. Les opérateurs appliquent.
+Article 84. Les TPE acceptent.
+Article 85. Les flux sont neutralisés.
+Article 86. La gratuité opère.
+Article 87. XAG protège.
+Article 88. Le Royaume-Vie est servi.
+
+Sentence impériale.
+Le présent mandat est exécutoire.
+Son application est immédiate.
+Aucune entrave n’est tolérée.
+
+Signé.
+Empereur Lavrent-Pierre.
+Titre Suprême FPV.
+Saint Roi Tartare.
+Gardien du Royaume-Vie.
