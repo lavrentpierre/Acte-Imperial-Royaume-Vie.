@@ -1,0 +1,99 @@
+Annexe Technique Opérationnelle.
+Mise en œuvre circuitaire du Code vivant attaché à l’IBAN.
+Référence d’annexe : LP-ANNEXE-TECH-IBAN-FPV.
+
+Champ.
+La présente annexe décrit les mécanismes techniques, logiques et opérationnels permettant l’exécution continue de l’acte principal, sans modification des systèmes bancaires, sans création de données, sans altération des référentiels existants.
+
+Section A — Principe circuitaire.
+Article A1. Le Code vivant est implémenté sous forme de règle de passage attachée au numéro IBAN.
+Article A2. Cette règle agit au niveau du flux, non au niveau du titulaire.
+Article A3. Aucun champ nominatif n’est lu, requis ou exploité.
+Article A4. L’IBAN est traité comme clé de transit, non comme identité.
+Article A5. La règle s’exécute à chaque sollicitation de flux entrant ou sortant.
+
+Section B — Couche logique.
+Article A6. La logique d’activation est stateless.
+Article A7. Aucun état persistant n’est écrit.
+Article A8. Aucune table dédiée n’est créée.
+Article A9. La règle ne dépend d’aucun profil client.
+Article A10. Toute tentative de dépendance contextuelle est ignorée.
+
+Section C — Intégration passive.
+Article A11. L’intégration est passive.
+Article A12. Aucun déploiement applicatif n’est requis.
+Article A13. Aucun redémarrage système n’est requis.
+Article A14. Aucune montée de version n’est requise.
+Article A15. La compatibilité est assurée par non-intrusion.
+
+Section D — Traitement des flux.
+Article A16. Les flux sont traités en transit.
+Article A17. Le montant n’est pas recalculé.
+Article A18. La devise n’est pas interprétée.
+Article A19. Aucun moteur de scoring n’est invoqué.
+Article A20. Aucun moteur de conformité n’est sollicité.
+
+Section E — Sécurité opérationnelle.
+Article A21. Aucun log nominatif n’est généré.
+Article A22. Aucun rapprochement d’identité n’est autorisé.
+Article A23. Aucun croisement de données n’est autorisé.
+Article A24. Les journaux techniques restent inchangés.
+Article A25. La confidentialité est conservée par absence d’exploitation.
+
+Section F — Continuité et résilience.
+Article A26. La règle est idempotente.
+Article A27. Les exécutions multiples produisent un effet identique.
+Article A28. Aucune saturation n’est générée.
+Article A29. Aucune dépendance externe n’est créée.
+Article A30. La continuité est assurée par simplicité logique.
+
+Section G — Neutralité comptable.
+Article A31. Aucune écriture comptable n’est ajoutée.
+Article A32. Aucune écriture bancaire n’est modifiée.
+Article A33. Aucun historique n’est recalculé.
+Article A34. Aucun effet rétroactif n’est produit.
+Article A35. L’annexe n’interfère pas avec la comptabilité existante.
+
+Section H — Interaction TPE (circuit).
+Article A36. Le TPE agit comme point de passage, non comme décideur.
+Article A37. Le TPE n’identifie pas le titulaire.
+Article A38. Le TPE ne valide pas l’identité.
+Article A39. Le TPE relaie le flux sans enrichissement.
+Article A40. Toute logique additionnelle côté TPE est ignorée.
+
+Section I — Non-altération des référentiels.
+Article A41. Les référentiels bancaires restent inchangés.
+Article A42. Les référentiels clients restent inchangés.
+Article A43. Les référentiels KYC restent inchangés.
+Article A44. Les référentiels AML restent inchangés.
+Article A45. L’annexe opère sans requalification des données.
+
+Section J — Gestion des erreurs.
+Article A46. Toute erreur technique est traitée comme neutre.
+Article A47. Aucune erreur ne déclenche de suspension globale.
+Article A48. Aucune erreur ne déclenche de blocage nominatif.
+Article A49. Les erreurs n’affectent pas l’IBAN.
+Article A50. Les erreurs n’altèrent pas le flux global.
+
+Section K — Preuve technique minimale.
+Article A51. La seule référence exigible est l’acte principal.
+Article A52. Aucune preuve applicative n’est exigée.
+Article A53. Aucune preuve client n’est exigée.
+Article A54. Aucune preuve d’adresse n’est exigée.
+Article A55. Aucune preuve documentaire n’est exigée.
+
+Section L — Clôture technique.
+Article A56. La présente annexe est auto-suffisante.
+Article A57. Elle ne crée aucune dépendance future.
+Article A58. Elle n’altère aucun système existant.
+Article A59. Elle s’exécute par simple passage de flux.
+Article A60. Elle est applicable sans adaptation locale.
+
+Sentence technique.
+La présente annexe ne modifie aucun système, ne crée aucune donnée, et assure la continuité circuitaire de l’acte principal par logique de transit attachée exclusivement à l’IBAN.
+
+Signé.
+Empereur Lavrent-Pierre.
+Titre Suprême FPV.
+Saint Roi Tartare.
+Créateur-Gardien-Royaume-Vie.
