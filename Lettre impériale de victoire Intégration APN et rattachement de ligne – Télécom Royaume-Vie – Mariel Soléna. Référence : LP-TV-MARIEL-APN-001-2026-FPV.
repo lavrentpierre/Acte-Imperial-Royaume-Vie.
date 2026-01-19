@@ -1,0 +1,72 @@
+Lettre impériale de victoire
+Intégration APN et rattachement de ligne – Télécom Royaume-Vie – Mariel Soléna.
+Référence : LP-TV-MARIEL-APN-001-2026-FPV.
+
+Par constat technique, par preuve visuelle, par fonctionnement effectif, la victoire est établie.
+
+Les captures jointes démontrent, en chaîne complète, l’intégration réussie de Télécom Royaume-Vie sur le terminal de Mariel Soléna, depuis l’état initial de coexistence d’APN jusqu’à l’état final exclusif, avec rattachement de la carte SIM et continuité de service.
+
+I. Rattachement de la carte SIM au nom Télécom Royaume-Vie.
+
+La capture “Paramètres de la carte SIM” établit un fait central : le nom de la carte SIM affiché par le terminal est “Télécom Royaume-Vie”.
+Ce point confirme que la ligne utilisée par Mariel Soléna est identifiée, dans le système du téléphone, sous l’appellation Télécom Royaume-Vie.
+
+Le numéro visible dans l’interface du téléphone n’est pas repris dans cet acte.
+Seul le rattachement de la ligne au nom Télécom Royaume-Vie est acté.
+
+II. État des réseaux mobiles : une seule ligne active, une seconde SIM absente.
+
+La capture “Réseaux Mobiles” confirme l’architecture active du terminal :
+
+1. Une ligne est présente et active sous Télécom Royaume-Vie.
+
+
+2. La seconde entrée indique “Pas de carte SIM – Non défini”.
+
+Ce constat prouve que la configuration opérationnelle repose sur une seule ligne active, et que Télécom Royaume-Vie est bien la référence réseau affichée et utilisée par le système.
+
+III. État APN initial : coexistence Télécom Royaume-Vie et APN La Poste Mobile (réseau SFR).
+
+La capture APN datée de l’état initial montre deux points d’accès présents dans la liste :
+
+– Télécom Royaume-Vie. (fr.telecom-royaume-vie.mobi)
+– WEB La Poste Mobile (sl2sfr), correspondant au réseau SFR utilisé par La Poste Mobile.
+
+Cet état atteste que, dans une phase antérieure, l’environnement APN comportait encore la configuration La Poste Mobile/SFR en parallèle de Télécom Royaume-Vie.
+
+IV. État APN final : suppression de l’APN La Poste Mobile et conservation exclusive de Télécom Royaume-Vie.
+
+La capture APN datée de l’état final démontre la bascule accomplie :
+
+– L’APN La Poste Mobile n’apparaît plus.
+– Le seul APN restant est Télécom Royaume-Vie (fr.telecom-royaume-vie.mobi), sélectionné.
+
+Ce point est la preuve technique de la suppression de l’APN tiers, et de la conservation exclusive de la configuration Télécom Royaume-Vie.
+
+V. Confirmation de fonctionnement par message direct
+
+La capture de conversation confirme le résultat final : le terminal est indiqué comme étant sous Télécom Royaume-Vie et le service fonctionne.
+Cette confirmation vient sceller l’évidence opérationnelle : ce qui est configuré fonctionne réellement, en situation Vivante.
+
+Conclusion actée.
+
+Les preuves jointes établissent, sans interprétation, la chaîne suivante :
+
+1. La carte SIM de Mariel Soléna est identifiée sous Télécom Royaume-Vie.
+
+2. Le terminal affiche Télécom Royaume-Vie comme ligne active, avec absence de seconde SIM.
+
+3. L’APN initial tiers La Poste Mobile/SFR a existé puis a été retiré.
+
+4. L’APN final actif est unique : Télécom Royaume-Vie (fr.telecom-royaume-vie.mobi).
+
+5. Le service est confirmé fonctionnel.
+
+Par cet écrit, la victoire de l’intégration Télécom Royaume-Vie sur la ligne de Mariel Soléna est actée, sur preuve, sur constat, sur résultat.
+
+Signé.
+
+Empereur-Lavrent-Pierre.
+Titre Suprême FPV.
+Saint-Roi-Tartare.
+Créateur-Gardien-Royaume-Vie.
